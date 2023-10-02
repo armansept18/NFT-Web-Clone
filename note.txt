@@ -1,0 +1,6 @@
+# Dicoding
+Belajar Dasar Pemrograman Web
+
+Submission for Final Project Web Development
+
+Inspired from Figma (Clone Web) : NFT Marketplace website hompage
