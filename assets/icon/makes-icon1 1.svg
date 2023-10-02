@@ -1,0 +1,19 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="makes-icon1 1" clip-path="url(#clip0_20_32)">
+<path id="Vector" d="M35 69C53.7777 69 69 53.7777 69 35C69 16.2223 53.7777 1 35 1C16.2223 1 1 16.2223 1 35C1 53.7777 16.2223 69 35 69Z" fill="url(#paint0_linear_20_32)" stroke="white" stroke-width="2"/>
+<g id="Group">
+<path id="Vector_2" d="M33.2256 51.9437C43.8095 51.9437 52.3895 43.4635 52.3895 33.0027C52.3895 22.5419 43.8095 14.0618 33.2256 14.0618C22.6417 14.0618 14.0617 22.5419 14.0617 33.0027C14.0617 43.4635 22.6417 51.9437 33.2256 51.9437Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M26.1918 25.4221H41.5919C41.5919 25.4221 39.5481 38.1839 26.0591 40.0844L28.4002 31.6756L34.6271 29.9981" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+<path id="Vector_4" d="M43.7791 31.5056C43.7791 31.5056 39.7605 41.9422 28.6443 43.5401" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_20_32" x1="13.2875" y1="9.60943e-08" x2="13.2875" y2="27.4073" gradientUnits="userSpaceOnUse">
+<stop stop-color="#78C0FF"/>
+<stop offset="1" stop-color="#BE60E6" stop-opacity="0.44"/>
+</linearGradient>
+<clipPath id="clip0_20_32">
+<rect width="70" height="70" fill="white"/>
+</clipPath>
+</defs>
+</svg>
