@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Quicksand:wght@500;700&family=Tourney&display=swap");
-
+html {
+  scroll-behavior: smooth;
+}
 /* General Class */
 .flex {
   display: flex;
@@ -41,6 +43,9 @@
 }
 .decor-none {
   text-decoration: none;
+}
+.list-none {
+  list-style: none;
 }
 .first-cross-chain {
   font-family: "Tourney";
@@ -305,6 +310,7 @@ main aside {
   position: fixed;
   inset-block: 0;
   inset-inline-end: 0;
+  display: none;
 }
 main aside .social-media {
   height: 100%;
