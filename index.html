@@ -20,32 +20,49 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <header>
+    <header class="flex item-center space-between">
       <div>
         <img src="./assets/icon/email-logo 1.svg" alt="Logo" />
       </div>
-      <nav>
-        <ul>
+      <nav class="flex space-around">
+        <ul class="flex">
           <li><a href="#">About</a></li>
           <li><a href="#">Token</a></li>
           <li><a href="#">Roadmap</a></li>
           <li><a href="#">FAQs</a></li>
           <li><a href="#">Whitepaper</a></li>
         </ul>
-        <div>
-          <button>Sign In</button>
-          <button>Get Started</button>
+        <div class="flex-center">
+          <button id="sign-in">Sign In</button>
+          <button id="get-started">Get Started</button>
         </div>
       </nav>
+      <div class="dropdown">
+        <span class=""
+          ><img
+            src="./assets/icon/burger-menu.png"
+            alt="Burger Menu"
+            id="burger"
+        /></span>
+        <div class="dropdown-content">
+          <a href="#">About</a>
+          <a href="#">Token</a>
+          <a href="#">Roadmap</a>
+          <a href="#">FAQs</a>
+          <a href="#">Whitepaper</a>
+          <a href="#">Sign In</a>
+          <a href="#">Get Started</a>
+        </div>
+      </div>
     </header>
-    <main>
+    <main class="">
       <!-- Content 1 -->
-      <article>
+      <article class="flex">
         <div class="content-text">
-          <h4>ONE STOP SHOP NFT PROTOCOL</h3>
+          <h4>ONE STOP SHOP NFT PROTOCOL</h4>
           <h1>
-            The <span>First Cross-Chain</span> NFT Protocol Working With Real
-            World Companies
+            The <span class="first-cross-chain">First Cross- Chain</span> NFT
+            Protocol Working With Real World Companies
           </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
@@ -54,51 +71,53 @@
             magnam itaque nesciunt.
           </p>
           <b>The future is now.</b>
-          <button>Enter Presale</button>
-          <p>
-            Inspired by
-            <span
+          <button id="enter-presale">Enter Presale</button>
+          <p class="flex inspired">
+            <span>Inspired by</span>
+            <span id="figma-logo"
               ><img src="./assets/icon/figma_logo.svg" alt="Figma Logo" />
               <img src="./assets/icon/Figma.svg" alt="Figma"
             /></span>
           </p>
         </div>
-        <div class="content-image">
+        <div class="content-image flex-center">
           <img src="./assets/image/banner-image 1.png" alt="Banner Image" />
         </div>
       </article>
       <!-- Box Timer -->
-      <div class="timer-container">
-        <span>Phase two ends in</span>
-        <div class="container-time-number">
-          <div class="box-time">
-            <span id="days">25</span>
-            <span>Days</span>
-          </div>
-          <div class="box-time">
-            <span id="hours">14</span>
-            <span>Hours</span>
-          </div>
-          <div class="box-time">
-            <span id="minutes">57</span>
-            <span>Minutes</span>
-          </div>
-          <div class="box-time">
-            <span id="seconds">25</span>
-            <span>Seconds</span>
+      <div class="flex flex-center">
+        <div class="timer-container flex flex-center flex-col">
+          <span id="phase-time">Phase two ends in</span>
+          <div class="container-time-number flex flex-center">
+            <div class="box-time flex-col flex-center">
+              <span id="days">25</span>
+              <span id="time-text">Days</span>
+            </div>
+            <div class="box-time flex-col flex-center">
+              <span id="hours">14</span>
+              <span id="time-text">Hours</span>
+            </div>
+            <div class="box-time flex-col flex-center">
+              <span id="minutes">57</span>
+              <span id="time-text">Minutes</span>
+            </div>
+            <div class="box-time flex-col flex-center">
+              <span id="seconds">25</span>
+              <span id="time-text">Seconds</span>
+            </div>
           </div>
         </div>
       </div>
       <!-- Content 2 -->
-      <article>
-        <div class="content-image">
+      <article class="flex">
+        <div class="content-image flex flex-center">
           <img src="./assets/image/sec-2-img 1.png" alt="Preview Image NFT" />
         </div>
         <div class="content-text">
           <h4>REVOLUTIONIZED BY TECHNOLOGY</h4>
           <h2>
-            The <span>First Cross- Chain</span> NFT Protocol Working With Real
-            World Companies
+            The <span class="first-cross-chain">First Cross- Chain</span> NFT
+            Protocol Working With Real World Companies
           </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
@@ -108,105 +127,177 @@
           </p>
         </div>
       </article>
-      <article>
-        <div class="content-text">
+
+      <!-- Content 3 -->
+      <article class="flex">
+        <div class="content-text flex flex-center">
           <h4>ABOUT OUR TECHNOLOGY</h4>
           <h2>The Trading Platform</h2>
-          <p>
+          <p class="text-center">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
             inventore ullam vitae quaerat laudantium rerum rem et repudiandae
             deserunt dolore? Excepturi sunt pariatur, cum nihil deserunt
             laudantium dolorum tempore suscipit.
           </p>
-          <p>
+          <p class="text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
             delectus ut error minus eligendi, excepturi modi nihil possimus
             dolorem quos! Omnis eaque porro est sapiente, adipisci cupiditate
             dolor distinctio facilis!
           </p>
         </div>
-        <div class="content-image">
-          <div>
-            <img src="./assets/image/cart 1.png" alt="Cart Image" />
-            <p>
+        <div class="content-image flex-center">
+          <div class="flex-center flex-col">
+            <img
+              src="./assets/image/cart 1.png"
+              alt="Cart Image"
+              class="platform-image"
+            />
+            <p class="text-light article-3-p text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
               quibusdam adipisci dolorum ratione.
             </p>
           </div>
-          <div>
-            <img src="./assets/image/graph-coin 1.png" alt="Graph of Coin" />
-            <p>
+          <div class="flex-center flex-col">
+            <img
+              src="./assets/image/graph-coin 1.png"
+              alt="Graph of Coin"
+              class="platform-image"
+            />
+            <p class="text-light article-3-p text-center">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Obcaecati vero reiciendis aut maxime tenetur, esse, ducimus
               magnam, cum sit vitae commodi alias.
             </p>
           </div>
-          <div>
-            <img src="./assets/image/worksCoins 1.png" alt="Coins" />
-            <p>
+          <div class="flex-center flex-col">
+            <img
+              src="./assets/image/worksCoins 1.png"
+              alt="Coins"
+              class="platform-image"
+            />
+            <p class="text-light article-3-p text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
               fugiat, ut iusto rerum eius voluptatibus.
             </p>
           </div>
         </div>
       </article>
-      <article>
+      <!-- Content 4 -->
+      <article class="flex article-4">
         <div class="content-text">
-          <h4>REVOLUTIONIZED BY TECHNOLOGY</h4>
-          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum et proin massa sit morbi mattis. </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ab assumenda et quia sed quasi sapiente. Reprehenderit id minima repellendus voluptatem quasi nisi unde incidunt error ducimus, dolor temporibus enim?</p>
-        </div>
-        <div class="icon-step">
-          <img src="./assets/icon/makes-icon1 1.svg" alt="Initiate">
-          <img src="./assets/icon/Line 2.png" alt="Line">
-          <img src="./assets/icon/makes-icon2 1.svg" alt="Negotiate">
-          <img src="./assets/icon/Line 2.png" alt="Line">
-          <img src="./assets/icon/makes-icon3 1.svg" alt="Trade">
+          <h5>REVOLUTIONIZED BY TECHNOLOGY</h5>
+          <h4>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum et
+            proin massa sit morbi mattis.
+          </h4>
+          <p class="text-light article-4-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ab
+            assumenda et quia sed quasi sapiente. Reprehenderit id minima
+            repellendus voluptatem quasi nisi unde incidunt error ducimus, dolor
+            temporibus enim?
+          </p>
         </div>
         <div class="content-text-1">
-          <div>
-          <h3>Lorem ipsum dolor sit amet</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra aliquam condimentum mauris condimentum mi ut tellus sed. Montes, feugiat scelerisque semper egestas eu viverra fermentum eu vestibulum. Vehicula euismod diam nibh vel amet montes. Amet sit odio nunc, fermentum.</p>
+          <div class="flex gap-10">
+            <img
+              src="./assets/icon/makes-icon1 1.svg"
+              alt="Initiate"
+              class="image-revolutionized"
+            />
+            <div class="flex flex-col">
+              <h4>Lorem ipsum dolor sit amet</h4>
+              <p class="text-light text-justify article-4-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pharetra aliquam condimentum mauris condimentum mi ut tellus
+                sed. Montes, feugiat scelerisque semper egestas eu viverra
+                fermentum eu vestibulum. Vehicula euismod diam nibh vel amet
+                montes. Amet sit odio nunc, fermentum.
+              </p>
+            </div>
           </div>
-          <div>
-          <h3>Lorem ipsum dolor sit amet</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra aliquam condimentum mauris condimentum mi ut tellus sed. Montes, feugiat scelerisque semper egestas eu viverra fermentum eu vestibulum. Vehicula euismod diam nibh vel amet montes. Amet sit odio nunc, fermentum.</p>
+          <div class="flex gap-10">
+            <img
+              src="./assets/icon/makes-icon2 1.svg"
+              alt="Negotiate"
+              class="image-revolutionized"
+            />
+            <div class="flex flex-col">
+              <h4>Lorem ipsum dolor sit amet</h4>
+              <p class="text-light text-justify article-4-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pharetra aliquam condimentum mauris condimentum mi ut tellus
+                sed. Montes, feugiat scelerisque semper egestas eu viverra
+                fermentum eu vestibulum. Vehicula euismod diam nibh vel amet
+                montes. Amet sit odio nunc, fermentum.
+              </p>
+            </div>
           </div>
-          <div>
-          <h3>Lorem ipsum dolor sit amet</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra aliquam condimentum mauris condimentum mi ut tellus sed. Montes, feugiat scelerisque semper egestas eu viverra fermentum eu vestibulum. Vehicula euismod diam nibh vel amet montes. Amet sit odio nunc, fermentum.</p>
+          <div class="flex gap-10">
+            <img
+              src="./assets/icon/makes-icon3 1.svg"
+              alt="Trade"
+              class="image-revolutionized"
+            />
+            <div class="flex flex-col">
+              <h4>Lorem ipsum dolor sit amet</h4>
+              <p class="text-light text-justify article-4-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pharetra aliquam condimentum mauris condimentum mi ut tellus
+                sed. Montes, feugiat scelerisque semper egestas eu viverra
+                fermentum eu vestibulum. Vehicula euismod diam nibh vel amet
+                montes. Amet sit odio nunc, fermentum.
+              </p>
+            </div>
           </div>
         </div>
       </article>
-      <article>
-        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
+      <!-- Content 5 -->
+      <article class="flex article-5">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
         <div>
           <div class="content-text">
-            <div>
-            <p><span>01</span> Lorem ipsum - dolor sit amet, consectetur adipiscing elit. Pharetra aliquam condimentum mauris condimentum mi ut tellus sed. Montes, feugiat scelerisque semper egestas eu viverra fermentum eu vestibulum. Vehicula euismod diam nibh vel amet montes. Amet sit odio nunc, fermentum.</p>
+            <div class="flex gap-10 article-5-text">
+              <b>01</b>
+              <p>
+                Lorem ipsum - dolor sit amet, consectetur adipiscing elit.
+                Pharetra aliquam condimentum mauris condimentum mi ut tellus
+                sed. Montes, feugiat scelerisque semper egestas eu viverra
+                fermentum eu vestibulum. Vehicula euismod diam nibh vel amet
+                montes. Amet sit odio nunc, fermentum.
+              </p>
             </div>
-            <div>
-            <p><span>02</span> Lorem ipsum - dolor sit amet, consectetur adipiscing elit. Pharetra aliquam condimentum mauris condimentum mi ut tellus sed. Montes, feugiat scelerisque semper egestas eu viverra fermentum eu vestibulum. Vehicula euismod diam nibh vel amet montes. Amet sit odio nunc, fermentum.</p>
+            <div class="flex gap-10 article-5-text">
+              <b>02</b>
+              <p>
+                Lorem ipsum - dolor sit amet, consectetur adipiscing elit.
+                Pharetra aliquam condimentum mauris condimentum mi ut tellus
+                sed. Montes, feugiat scelerisque semper egestas eu viverra
+                fermentum eu vestibulum. Vehicula euismod diam nibh vel amet
+                montes. Amet sit odio nunc, fermentum.
+              </p>
             </div>
-            <div>
-            <p><span>03</span> Lorem ipsum - dolor sit amet, consectetur adipiscing elit. Pharetra aliquam condimentum mauris condimentum mi ut tellus sed. Montes, feugiat scelerisque semper egestas eu viverra fermentum eu vestibulum. Vehicula euismod diam nibh vel amet montes. Amet sit odio nunc, fermentum.</p>
+            <div class="flex gap-10 article-5-text">
+              <b>03</b>
+              <p>
+                Lorem ipsum - dolor sit amet, consectetur adipiscing elit.
+                Pharetra aliquam condimentum mauris condimentum mi ut tellus
+                sed. Montes, feugiat scelerisque semper egestas eu viverra
+                fermentum eu vestibulum. Vehicula euismod diam nibh vel amet
+                montes. Amet sit odio nunc, fermentum.
+              </p>
             </div>
           </div>
-          <div class="content-image">
-            <img src="./assets/image/problemglobe 1.png" alt="Globe">
+          <div class="content-image flex-center">
+            <img
+              src="./assets/image/problemglobe 1.png"
+              alt="Globe"
+              id="globe-image"
+            />
           </div>
         </div>
       </article>
-      <article>
-        <div class="content-text">
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum et proin massa sit morbi mattis. </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quod non saepe illum consectetur assumenda, magnam illo eligendi ab eum mollitia nulla! Eligendi, error velit molestiae aperiam reiciendis natus totam.</p>
-        </div>
-        <div class="content-image">
-          <img src="./assets/image/sec-der-frac-bg 1.png" alt="Preview NFT">
-        </div>
-      </article>
-      <aside>
+      <!-- <aside class="swipe-left">
         <div class="social-media">
           <ul>
             <li>
@@ -223,15 +314,24 @@
             </li>
           </ul>
         </div>
-      </aside>
+      </aside> -->
     </main>
     <footer>
-      <img src="./assets/icon/email-logo 1.svg" alt="Logo">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati ullam quod quae eaque sunt, porro blanditiis explicabo aliquam magnam ad consectetur laboriosam autem, natus consequatur tempore voluptates ratione numquam.</p>
-      <hr>
-      <div class="footer-copyrights">
-      <p>&copy; 2022. All rights reserved by Jan Uchytil</p>
-      <span><a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a></span>
+      <hr />
+      <img src="./assets/icon/email-logo 1.svg" alt="Logo" id="footer-logo" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati
+        ullam quod quae eaque sunt, porro blanditiis explicabo aliquam magnam ad
+        consectetur laboriosam autem, natus consequatur tempore voluptates
+        ratione numquam.
+      </p>
+      <hr />
+      <div class="footer-copyrights flex space-between">
+        <p>&copy; 2022. All rights reserved by Jan Uchytil</p>
+        <span class="flex flex-center gap-10"
+          ><a href="#">Privacy Policy</a>
+          <a href="#">Terms and Conditions</a></span
+        >
       </div>
     </footer>
   </body>
