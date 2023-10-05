@@ -300,17 +300,17 @@ body {
     max-width: 80px;
   }
   /* Side Floating Bar */
-  main aside {
+  main .sidebar {
     position: fixed;
     inset-block: 0;
     inset-inline-end: 0;
     display: none;
   }
-  main aside .social-media {
+  main .sidebar .social-media {
     height: 100%;
     display: flex;
   }
-  main aside .social-media ul {
+  main .sidebar .social-media ul {
     padding: 1.5rem 1rem;
     margin: auto;
     border-top-left-radius: 12px;
@@ -326,16 +326,16 @@ body {
     justify-content: center;
     gap: 1.5rem;
   }
-  main aside .social-media li {
+  main .sidebar .social-media li {
     list-style-type: none;
   }
-  main aside .social-media li a {
+  main .sidebar .social-media li a {
     text-decoration: none;
     font-size: 1.5rem;
     color: white;
     transition: all 0.1s ease-in-out;
   }
-  main aside .social-media li a:hover {
+  main .sidebar .social-media li a:hover {
     color: #ff8bd3;
   }
 }
@@ -733,7 +733,7 @@ body {
     font-weight: 300;
   }
   /* Side Floating Bar */
-  main aside {
+  main .sidebar {
     display: block;
   }
 }
